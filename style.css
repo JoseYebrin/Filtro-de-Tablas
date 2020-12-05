@@ -1,0 +1,141 @@
+*, *::before, *::after {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  padding: 10px;
+  text-align: right;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.form {
+  margin-top: 80px;
+  text-align: inherit;
+}
+
+.form-group-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 46%;
+  max-width: 360px;
+}
+
+.form-group>label {
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+}
+
+.form-group>select {
+  width: 100%;
+  border-radius: 4px;
+  padding: 0 6px;
+  height: 40px;
+}
+
+.form-group-main {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.form-group-main>label {
+  font-size: 1.6rem;
+  align-self: center;
+}
+
+.form-group-main>select {
+  height: 60px;
+}
+
+.table {
+  display: inline-block;
+  max-width: 100%;
+  margin: 40px auto;
+  white-space: nowrap;
+  overflow: auto;
+  font-size: 0;
+  border: 1px solid #ddd;
+}
+
+.table>.row>div {
+  display: inline-block;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.row:first-child>div:not(:nth-child(1)) {
+  background-color: #eee;
+}
+
+.cell {
+  width: 90px;
+  height: 70px;
+  padding: 25px 8px;
+  vertical-align: middle;
+  font-weight: 700;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.cell:first-child {
+  width: 170px;
+  font-weight: normal;
+}
+
+.cell-right {
+  text-align: right;
+}
+
+.cell-left {
+  text-align: left;
+}
+
+@media only screen and (min-width: 750px) {
+  .logo-container {
+    padding: 30px 40px;
+  }
+  .form-group {
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .form-group>label {
+    margin-right: 30px;
+    padding-bottom: 0;
+  }
+  .form-group-main {
+    justify-content: center;
+  }
+  .cell {
+    width: 210px;
+  }
+  .cell:first-child {
+    width: 300px;
+  }
+  .cell-left {
+    text-align: center;
+  }
+}

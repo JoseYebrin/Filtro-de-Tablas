@@ -1,0 +1,67 @@
+{
+  "datos": [
+    {
+      "id": "1",
+      "region": "Región Metropolitana",
+      "tienda": "Costanera Center",
+      "modelo": "XYZ",
+      "marca": "Gato"
+    },
+    {
+      "id": "2",
+      "region": "Zona Norte",
+      "tienda": "Mall Antofagasta",
+      "modelo": "321",
+      "marca": "Perro"
+    },
+    {
+      "id": "3",
+      "region": "Región Metropolitana",
+      "tienda": "Costanera Center",
+      "modelo": "123",
+      "marca": "Perro"
+    },
+    {
+      "id": "4",
+      "region": "Región Metropolitana",
+      "tienda": "Arauco Maipu",
+      "modelo": "ABC",
+      "marca": "Hamster"
+    },
+    {
+      "id": "5",
+      "region": "Región Metropolitana",
+      "tienda": "Arauco Maipu",
+      "modelo": "DOG",
+      "marca": "Perro"
+    },
+    {
+      "id": "6",
+      "region": "Zona Sur",
+      "tienda": "Lorem Ipsum",
+      "modelo": "DOG",
+      "marca": "Perro"
+    },
+    {
+      "id": "7",
+      "region": "Región Metropolitana",
+      "tienda": "Dolor Sit Amet",
+      "modelo": "GAR",
+      "marca": "Perro"
+    },
+    {
+      "id": "8",
+      "region": "Región Metropolitana",
+      "tienda": "Dolor Sit Amet",
+      "modelo": "ABC",
+      "marca": "Gato"
+    },
+    {
+      "id": "9",
+      "region": "Zona Sur",
+      "tienda": "Lorem Ipsum",
+      "modelo": "LOG",
+      "marca": "Hamster"
+    }
+  ]
+}
